@@ -17,7 +17,8 @@ export class car_controllers {
   }
 
   async findOne(req: Request, res: Response) {
-    const response = await carServices.findOne(res.locals.car);
+    const id = req.params.id;
+    const response = await carServices.findOne(id);
 
     return res.status(200).json(response);
   }

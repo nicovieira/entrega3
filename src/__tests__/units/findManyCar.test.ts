@@ -2,8 +2,8 @@ import { car_services } from "../../services/car.services";
 import { carListMock } from "../__mocks__/car.mocks";
 import { prismaMock } from "../__mocks__/prisma";
 
-describe("Unit test: get many todo", () => {
-  test("should be able to get many todo successfully", async () => {
+describe("Unit test: Get many cars", () => {
+  test("should be able to get many cars successfully", async () => {
     const carServices = new car_services();
 
     prismaMock.car.findMany.mockResolvedValue(carListMock);

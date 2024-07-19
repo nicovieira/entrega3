@@ -4,7 +4,7 @@ export const carMock = {
   description: "Carro Excelente",
   brand: "Mercedes-Benz",
   year: 2022,
-  km: 0,
+  km: 500,
 };
 
 export const carCreateBodyMock = {
@@ -12,7 +12,7 @@ export const carCreateBodyMock = {
   description: "Carro Excelente",
   brand: "Mercedes-Benz",
   year: 2022,
-  km: 0,
+  km: 500,
 };
 
 export const carUpdateBodyMock = { km: 1000 };
@@ -24,7 +24,7 @@ export const carListMock = [
     description: "Carro Excelente",
     brand: "Mercedes-Benz",
     year: 2022,
-    km: 0,
+    km: 500,
   },
   {
     id: "642e14c3-8578-476f-87b5-a704a07e778b",
@@ -38,7 +38,13 @@ export const carListMock = [
 
 export const carCreateBodyListMock = [
   { name: "HatchBack", description: "Carro Ótimo", brand: "Mercedes-Benz", year: 2024, km: 4000 },
-  { name: "EQE Sedan", description: "Carro Excelente", brand: "Mercedes-Benz", year: 2022, km: 0 },
+  {
+    name: "EQE Sedan",
+    description: "Carro Excelente",
+    brand: "Mercedes-Benz",
+    year: 2022,
+    km: 500,
+  },
 ];
 
 export const invalidCarIdMock = "cf6fd262-2183-48e0-8a7b-29c338290478";

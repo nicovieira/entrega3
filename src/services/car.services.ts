@@ -16,7 +16,6 @@ export class car_services {
 
   async findOne(carId: string) {
     const data = await prisma.car.findFirst({ where: { id: carId } });
-    console.log(data);
     return data;
   }
 
